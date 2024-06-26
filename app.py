@@ -91,6 +91,5 @@ if st.button('Predict Score'):
     
     result = model.predict(input_df)
 
-    st.text(result)
     
     st.header("Predicted Score: " + str(int(result[0])))
